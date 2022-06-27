@@ -6,17 +6,6 @@ const HomePage = () => {
     <>
       <MetaTags title="Home" description="Home page" />
 
-      <header>
-        <h1>Redwood Block</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to={routes.about()}>About Page</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
       <h1>Welcome to the HomePage</h1>
       <p>
         Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
